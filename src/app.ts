@@ -12,7 +12,7 @@ app.use(
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Server is Running");
+  res.send("Server is Running ...");
 });
 
 export default app;
